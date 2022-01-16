@@ -217,9 +217,9 @@ select.input option{
 }
 
 #features-web{
-    /* background: linear-gradient(to bottom,  #ffffff, #fdebf7, #fdebf7, #fecfef, #fecfef, #fecfef,  #fff6fc, #ffffff); */
+    background: linear-gradient(to bottom,  #ffffff, #fdebf7, #fdebf7, #fecfef, #fecfef, #fecfef,  #fff6fc, #ffffff);
     padding-bottom: 1rem;
-    background: linear-gradient(to bottom, #fdebf7, #fecfef);
+    /* background: linear-gradient(to bottom, #fdebf7, #fecfef); */
 }
 
 .features-web-title{
