@@ -59,11 +59,14 @@
 }
 
 .navbar-actions-button{
+    display: inline-block;
+    text-decoration: none !important;
     background: none;
     border: none;
-    color: orange;
+    color: orange !important;
     padding: 0.53rem 1rem;
     width: 5.5rem;
+    text-align: center;
     position: relative;
 }
 
@@ -414,6 +417,72 @@ select.input option{
     display: block;
     font: inherit;
     font-size: 1.1rem;
+}
+
+.login-page-style{
+    background: linear-gradient(to bottom, #ffebf9, #fecfef) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-page-title{
+    margin-bottom: 6rem !important;
+    font-size: 2.4rem;
+}
+
+.login-btn{
+    color: orange;
+    background: white;
+    border-radius: 8px;
+    padding: 0.4rem 5rem;
+    border: none;
+    outline: none !important;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.116);
+    font-weight: bold;
+    font-size: 1.3rem;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.07);
+}
+
+.login-form-help-text{
+    display: block;
+    color: #555;
+    margin: 1.3rem 0;
+}
+
+.login-form{
+    width: 80%;
+}
+
+.login-form-input{
+    color: rgb(107, 0, 107) !important;
+    font-weight: bold;
+}
+
+.mini-section-title{
+    font-size: 1.1rem;
+}
+
+.mini-section-title::before{
+    border: 7.5px solid transparent;
+    border-left: 0;
+    border-right: 14px solid orange;
+}
+
+.button-purple{
+    color: orange;
+    background: rgb(107, 0, 107);
+    border-radius: 8px;
+    border: none;
+    outline: none !important;
+    padding: 0.49rem 0.6rem;
+    width: 8.5rem;
+}
+
+.font-size-small{
+    font-size: 0.75rem;
+    font-weight: bold;
 }
 
 @media (max-width: 996px){
